@@ -1,0 +1,109 @@
+/* ===== General Page Styles ===== */
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #000; /* black background */
+  color: #fff; /* all text white */
+  margin: 0;
+  padding: 0 10%;
+  line-height: 1.6;
+}
+
+/* ===== Header Section ===== */
+.header-container {
+  position: relative;
+}
+
+.profile-pic {
+  float: right;
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #ffff00;
+}
+
+h1 {
+  color: #FF69B4; /* pink color for GOWTHAMI PATNANA */
+  font-size: 2.5em;
+  margin-bottom: 0;
+}
+h3 {
+  color: #ADD8E6; /* light blue */
+  font-weight: normal;
+  margin-top: 5px;
+}
+
+/* ===== Horizontal Rule ===== */
+hr {
+  border: none;
+  height: 2px;
+  background-color: #ff69b4; /* pink line */
+  margin: 20px 0;
+}
+
+/* ===== Section Titles ===== */
+/* ===== Section Titles ===== */
+/* ===== Section Titles ===== */
+/* ===== Section Titles ===== */
+/* ===== Section Titles ===== */
+/* ===== Section Titles ===== */
+h2 {
+    color: aqua;              /* Sets heading color to aqua */
+    text-decoration: underline; /* Adds underline */
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+/* ===== About Me Section ===== */
+.about-me {
+  font-size: 1.3em;
+  line-height: 2;
+  color: #fff; /* white text */
+}
+
+/* ===== Paragraphs ===== */
+p {
+  font-size: 1em;
+  text-align: justify;
+  color: #fff; /* white text */
+}
+
+/* ===== Lists ===== */
+ul, ol {
+  margin-left: 20px;
+  color: #fff; /* white text */
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* ===== Links ===== */
+/* ===== Links ===== */
+/* ===== Links ===== */
+/* ===== Links ===== */
+a {
+    color: #C8A2C8;  /* Light purple color */
+    text-decoration: none; /* Removes underline by default */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+/* ===== Responsive Design ===== */
+@media (max-width: 768px) {
+  body {
+    padding: 5%;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  .profile-pic {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+  }
+}
